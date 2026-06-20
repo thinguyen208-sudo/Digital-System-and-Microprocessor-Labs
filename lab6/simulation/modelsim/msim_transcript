@@ -1,0 +1,189 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do lab6_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/RAM.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/RAM.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/lab6.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/lab6.sv 
+# -- Compiling module lab6
+# -- Compiling module pc_register
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module alu
+# -- Compiling module multiplexer
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	lab6
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/prelab3_tn5.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/prelab3_tn5.sv 
+# -- Compiling module prelab3_tn5
+# 
+# Top level modules:
+# 	prelab3_tn5
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/prelab3_tn4.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/prelab3_tn4.sv 
+# -- Compiling module prelab3_tn4
+# 
+# Top level modules:
+# 	prelab3_tn4
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/prelab3_tn3.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/prelab3_tn3.sv 
+# -- Compiling module prelab3_tn3
+# 
+# Top level modules:
+# 	prelab3_tn3
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/prelab3_tn2.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/prelab3_tn2.sv 
+# -- Compiling module prelab3_tn2
+# 
+# Top level modules:
+# 	prelab3_tn2
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/prelab3_tn1.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/prelab3_tn1.sv 
+# -- Compiling module prelab3_tn1
+# 
+# Top level modules:
+# 	prelab3_tn1
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/lab3_r.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/lab3_r.sv 
+# -- Compiling module lab3_r
+# 
+# Top level modules:
+# 	lab3_r
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/DE10.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/DE10.sv 
+# -- Compiling module DE10
+# 
+# Top level modules:
+# 	DE10
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/LAB\ KTS/lab6 {D:/LAB KTS/lab6/DE10_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:01:35 on May 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/LAB KTS/lab6" D:/LAB KTS/lab6/DE10_tb.sv 
+# -- Compiling module DE10_tb
+# 
+# Top level modules:
+# 	DE10_tb
+# End time: 17:01:35 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  DE10_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" DE10_tb 
+# Start time: 17:01:35 on May 23,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "control_unit(fast)".
+# Loading sv_std.std
+# Loading work.DE10_tb(fast)
+# Loading work.DE10(fast)
+# Loading work.lab6(fast)
+# Loading work.control_unit(fast)
+# Loading work.dec3to8(fast)
+# Loading work.regn(fast)
+# Loading work.pc_register(fast)
+# Loading work.alu(fast)
+# Loading work.lab3_r(fast)
+# Loading work.prelab3_tn1(fast)
+# Loading work.prelab3_tn3(fast)
+# Loading work.prelab3_tn2(fast)
+# Loading work.prelab3_tn4(fast)
+# Loading work.prelab3_tn5(fast)
+# Loading work.multiplexer(fast)
+# Loading work.RAM(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# [0 ns] LEDR (Bin): 000000000 | LEDR (Hex): 000
+# [970000 ns] LEDR (Bin): 001110000 | LEDR (Hex): 070
+# [32790000 ns] LEDR (Bin): 001100000 | LEDR (Hex): 060
+# [64610000 ns] LEDR (Bin): 000000000 | LEDR (Hex): 000
+# [96430000 ns] LEDR (Bin): 101100000 | LEDR (Hex): 160
+# [128250000 ns] LEDR (Bin): 101110000 | LEDR (Hex): 170
+# [160070000 ns] LEDR (Bin): 101111000 | LEDR (Hex): 178
+# [191890000 ns] LEDR (Bin): 110000000 | LEDR (Hex): 180
+# [223710000 ns] LEDR (Bin): 110000100 | LEDR (Hex): 184
+# [255530000 ns] LEDR (Bin): 110001000 | LEDR (Hex): 188
+# [287350000 ns] LEDR (Bin): 110001100 | LEDR (Hex): 18c
+# [319170000 ns] LEDR (Bin): 110010000 | LEDR (Hex): 190
+# [350990000 ns] LEDR (Bin): 110010010 | LEDR (Hex): 192
+# [382810000 ns] LEDR (Bin): 110010100 | LEDR (Hex): 194
+# [414630000 ns] LEDR (Bin): 110010110 | LEDR (Hex): 196
+# [446450000 ns] LEDR (Bin): 110011000 | LEDR (Hex): 198
+# [478270000 ns] LEDR (Bin): 110011010 | LEDR (Hex): 19a
+# ** Note: $stop    : D:/LAB KTS/lab6/DE10_tb.sv(43)
+#    Time: 500200 ns  Iteration: 0  Instance: /DE10_tb
+# Break in Module DE10_tb at D:/LAB KTS/lab6/DE10_tb.sv line 43
+# End time: 17:21:53 on May 23,2026, Elapsed time: 0:20:18
+# Errors: 0, Warnings: 0
