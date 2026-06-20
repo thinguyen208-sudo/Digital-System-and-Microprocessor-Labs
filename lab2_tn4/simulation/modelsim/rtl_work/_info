@@ -1,0 +1,197 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/LAB KTS/lab2_tn4/simulation/modelsim
+T_opt
+Z1 !s110 1774184257
+Vc6k?1CmRIYhAoT<Th2:Ak2
+04 11 4 work lab2_tn4_tb fast 0
+=1-70a6cc412300-69bfe741-23c-2464
+!s124 OEM10U7 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vfsm_controller
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 oadI5:NPfR20;I02gbBIS3
+IiNYeU:abl@o:QQc;PXQF:1
+S1
+R0
+Z4 w1773398903
+Z5 8D:/LAB KTS/lab2_tn4/lab2_tn4_ver2.sv
+Z6 FD:/LAB KTS/lab2_tn4/lab2_tn4_ver2.sv
+!i122 0
+L0 182 60
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z9 !s108 1774184257.000000
+Z10 !s107 D:/LAB KTS/lab2_tn4/lab2_tn4_ver2.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab2_tn4|D:/LAB KTS/lab2_tn4/lab2_tn4_ver2.sv|
+!i113 0
+Z12 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -sv -work work {+incdir+D:/LAB KTS/lab2_tn4} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vhalf_second_counter
+R3
+R1
+!i10b 1
+!s100 ;M[nGEz]2n1SC>4UW<[6X0
+Ic?b]k3>dZPODo270JDnfX2
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 157 23
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R2
+vlab2_tn4_tb
+R3
+R1
+!i10b 1
+!s100 6nz;`gI5gT`0YUcfPIlMz0
+Ik6h`ljz@HL<@fe57z:W^a0
+S1
+R0
+w1774184076
+8D:/LAB KTS/lab2_tn4/lab2_tn4_tb.sv
+FD:/LAB KTS/lab2_tn4/lab2_tn4_tb.sv
+!i122 1
+L0 3 113
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/LAB KTS/lab2_tn4/lab2_tn4_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab2_tn4|D:/LAB KTS/lab2_tn4/lab2_tn4_tb.sv|
+!i113 0
+R12
+R13
+R2
+vlab2_tn4_ver2
+R3
+R1
+!i10b 1
+!s100 5lal>`E4L<kLnoAaZ5k:Z0
+IPV`N;?hh8^f<JI5:HMOBP3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 4 83
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R2
+vletter_selection_logic
+R3
+R1
+!i10b 1
+!s100 anc1eGBTjdLlS`GYPXz[:3
+IBm>?goJ2nKJiOV0G47G=L2
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 95 19
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R2
+vmorse_code_length_counter
+R3
+R1
+!i10b 1
+!s100 B_VELV33O=8jZ5;0Ggg3R3
+IQ6hm?^E1d^FBH4<[bh4zn1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 116 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R2
+vmorse_code_shift_register
+R3
+R1
+!i10b 1
+!s100 cYeBCC7W]djV7T3]J:HXo0
+IHEG1QBM8?2a7AF1_1Sc8D0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 135 20
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R2

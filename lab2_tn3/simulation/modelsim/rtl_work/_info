@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/LAB KTS/lab2_tn3/simulation/modelsim
+T_opt
+!s110 1778000280
+V`QTXgV^F6UaH`nE]beo<W1
+04 11 4 work lab2_tn3_tb fast 0
+=1-70a6cc412300-69fa2197-39b-2ddc
+!s124 OEM10U12 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vd_ff
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1778000279
+!i10b 1
+!s100 1j``h1Z4b<o8IfoGn^Gim2
+IO>LmV:72]]2LZJe<`=YWY2
+S1
+R0
+Z4 w1773331619
+Z5 8D:/LAB KTS/lab2_tn3/lab2_tn3.sv
+Z6 FD:/LAB KTS/lab2_tn3/lab2_tn3.sv
+!i122 0
+L0 1 12
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z9 !s108 1778000279.000000
+Z10 !s107 D:/LAB KTS/lab2_tn3/lab2_tn3.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab2_tn3|D:/LAB KTS/lab2_tn3/lab2_tn3.sv|
+!i113 0
+Z12 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -sv -work work {+incdir+D:/LAB KTS/lab2_tn3} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vlab2_tn3
+R2
+R3
+!i10b 1
+!s100 C^P6aUzNfdXJaO4J?bXXQ0
+I=eP?JK]dPYd[^RbaM04A60
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 45 35
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vlab2_tn3_tb
+R2
+R3
+!i10b 1
+!s100 ^4GXgQ=Wf<58iAaoX3gLB1
+I0G5;9;N]lVzgL]Pdbc_J93
+S1
+R0
+w1773286866
+8D:/LAB KTS/lab2_tn3/lab2_tn3_tb.sv
+FD:/LAB KTS/lab2_tn3/lab2_tn3_tb.sv
+!i122 1
+L0 3 84
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/LAB KTS/lab2_tn3/lab2_tn3_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/LAB KTS/lab2_tn3|D:/LAB KTS/lab2_tn3/lab2_tn3_tb.sv|
+!i113 0
+R12
+R13
+R1
+vshift_register
+R2
+R3
+!i10b 1
+!s100 [?f`>n:LAVcNa3;o8R?zU2
+IjifhGZZdh[?^>]lVHiG=z3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 14 30
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
