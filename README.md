@@ -1,7 +1,7 @@
 # 🖥️ Digital System & Microprocessor Architecture Labs
 
 ## 📖 Giới thiệu (Overview)
-Repository này lưu trữ toàn bộ mã nguồn và tài liệu mô phỏng của chuỗi đồ án thực hành môn Kỹ thuật số & Cơ sở máy tính tại Đại học Bách Khoa TP.HCM. Mục tiêu của dự án là thiết kế, tối ưu hóa và tích hợp thành công kiến trúc vi xử lý cơ bản (ALU) và bộ tính toán số thực dấu chấm động (FPU) từ các cổng logic nền tảng.
+Repository này lưu trữ toàn bộ mã nguồn và tài liệu mô phỏng của chuỗi thực hành môn Kỹ thuật số & Cơ sở máy tính tại Đại học Bách Khoa TP.HCM. Mục tiêu của dự án là thiết kế, tối ưu hóa và tích hợp thành công kiến trúc vi xử lý cơ bản (ALU) và bộ tính toán số thực dấu chấm động (FPU) từ các cổng logic nền tảng.
 
 ## 🛠 Công cụ & Công nghệ (Tools & Technologies)
 *   **Ngôn ngữ Mô tả Phần cứng:** Verilog / SystemVerilog.
